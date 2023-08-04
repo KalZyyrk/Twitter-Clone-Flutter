@@ -14,3 +14,12 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+
+for stopping the app go on root in terminal and write
+cd appwrite
+docker compose stop
+
+for restart 
+cd appwrite
+docker compose up -d --remove-orphans
